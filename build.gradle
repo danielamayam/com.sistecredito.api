@@ -31,11 +31,10 @@ dependencies {
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: "6.0.0"
     implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
-    implementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-junit5:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-rest-assured:$rootProject.ext.serenityVersion"
     implementation 'org.slf4j:slf4j-api:2.0.6'
     testImplementation 'org.slf4j:slf4j-simple:2.0.6'
-    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
     implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '4.3.3'
 }
