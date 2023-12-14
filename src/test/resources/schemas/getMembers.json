@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "gender"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "gender"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "gender"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "gender"
+      ]
+    }
+  ]
+}
